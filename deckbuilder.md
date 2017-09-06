@@ -72,35 +72,43 @@ As the game goes on, you will draw more location cards from the location deck an
 In fig 1-1, we have a blank board with 5 locations.
 
 fig 1-1
+```
 |--|  |--|  |--|  |--|  |--|
+```
 
 In fig 1-2, we drew 3 cards and put them down.
 
 fig 1-2
+```
  ==    ==    ==
 |--|  |--|  |--|  |--|  |--|
+```
 
 In fig 1-3, we drew 3 more cards and put them down.
 
 fig 1-3
+```
  ==
  ==    ==    ==    ==    ==
 |--|  |--|  |--|  |--|  |--|
+```
 
 In fig 1-4, we drew 1 location card and put it on the left side of the board.
 
 fig 1-4
+```
        ==
        ==    ==    ==    ==    ==
 |--|  |--|  |--|  |--|  |--|  |--|
-
+```
 In fig 1-5, we drew 3 more cards and put them down.
 
 fig 1-5
+```
  ==    ==    ==
  ==    ==    ==    ==    ==    ==
 |--|  |--|  |--|  |--|  |--|  |--|
-
+```
 After the cards are put on the board, each player takes a turn.
 
 At the start of your turn you draw up to 5 cards in your hand.
@@ -110,25 +118,32 @@ Next, you move your character and play cards. You can move as many location spac
 At the start of the game, you have 3 locations and you can choose anywhere for your hero to start.
 
 Chip is going to start at the left side. He has 2 movement and five cards.
+
+```
  ==    ==    ==
 |--|  |--|  |--|
   X
+```
 
 Chip uses one of his cards. Reveal, +1 (white) is the text.
 
 Reveal is a special ability that some cards have that allow you to flip over a card at your location. So Chip reveals the card.
 
+```
  rr    ==    ==
 |--|  |--|  |--|
   X
+```
 
 Now all the players can see that the card is a Smartlink Rifle (red). It costs 3 (white) to buy.
 
 Chip continues his turn to the next area, and plays another copy of the same card. Reveal, +1 (white).
 
+```
  rr    rr    ==
 |--|  |--|  |--|
         X
+```
 
 It's a fireball spell. It costs 6 (blue) to buy.
 
@@ -136,9 +151,11 @@ Chip plays another card, this time it does +1 (white) +1 (blue). Then chip moves
 
 He puts the Smartlink Rifle in his discard pile and then ends his turn. His unused resource, in this case, +1 (blue) is thrown away.
 
+```
        rr    ==
 |--|  |--|  |--|
   X
+```
 
 1. Getting Started
 You pick your hero, get your starting cards. Shuffle the location deck and draw cards until you have 3 locations without entry costs.
