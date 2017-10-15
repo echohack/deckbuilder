@@ -14,14 +14,11 @@ Scifi with strong heroes and some fantasy elements.
 
 Resources:
 
-There are five kinds of cards of different colors
-Red
-Blue
-Black
-Green
-White
+There is one resource: Power. Power is like mana in Hearthstone. Not having multiple kinds of mana is a design choice to avoid the "oops I drew land" problem.
 
-Card types represent different powers, like magic, brute force, software/decker, roguey/trickster/scout, and charmisa/information/guile. We can change these around or add more if we need to.
+Cards should always give the player more options and actions. Cards should not ever just be math (+2 power).
+
+Card text should always be short and to the point. If there is a complex action that needs to take place, design a keyword and put the keyword in the rules.
 
 Cards of different types could be equipment (a software program a decker hero can use) or enemies (a black ICE).
 
