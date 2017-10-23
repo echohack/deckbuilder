@@ -15,113 +15,172 @@ The bad guy collects cards each turn. Once the bad guy collects 12 cards, the ba
 When the players destroy all 7 pieces of the artifact, they win.
 
 Keywords:
+
 Reveal: Flip over a hidden card at your location. If the card you flip over has a Secret effect, execute it.
+
 Stealth: Flip over a revealed card at your location.
+
 Spy: Look at a hidden card but don't reveal.
+
 Secret: This effect activates when the card is revealed.
+
 Defense: This card can be used in reaction to a secret.
+
 Freeze: When a character is frozen, they can take no actions until the beginning of the next round.
+
 Research: Draw 3 cards. Pick one, and put the other two in your discard pile.
+
 One-shot: After using this card, remove it from the game.
+
 Heart Monitor: When this minion dies, reveal a card at this location. If the card is not an artifact, add it to the villian's pile.
 
 Disposable:
+
 Extinquish:
+
 Exile:
+
 Banish:
+
 Abandon:
+
 Reload: 
+
 Defective: by design
 
 
-Characters:
-Chip
+#Characters:
+
+##Chip
+
 Hacker/information guy -- good at software
+
 Life: 3
+
 Speed: 2
+
 Talent: Spend 2 power. Reveal a card at your location.
 
-Viktor Savin
+##Viktor Savin
+
 Mechanic, morbid, good at making robots, part robot -- like Full Metal Alchemist
+
 Life: 4
+
 Speed: 1
+
 Talent: Spend 2 power. ?????
 
-Molly Deacon
+##Molly Deacon
+
 Mysterious, Ex-cop, she could be android, but we leave this ambigious
+
 Life: 3
+
 Speed: 2
+
 Talent: Spend 2 power. ???
 
-Bandit Schafer
+##Bandit Schafer
+
 Dog Shamen, barista, dog walker. Hippie, into spiritual stuff
+
 Life: 2
+
 Speed: 1
+
 Talent: Howl: spend 2 power, summon a dog at your location. Bandit starts the game with a dog at his starting location.
 
 Initialize, Polymorphism, Monomorphism, 
-Init
-SIGINT
-enhancement
-planning, plotting, conspiring
 
-
-Tag: Starter
-Trust: +1 power. One-shot.
-Investigate: +1 speed. Reveal. One-shot.
-
-Tag: Artifact (7)
-Ruby of Anuket: (10) You cannot attack the Ruby of Anuket unless you spend 3 speed. Secret: ALL heroes at this location lose 5 speed until next round.
-Selket's Sting: (10) Secret: ALL heroes at this location put a (damage card) in their discard pile. This cannot be blocked.
-
-Tag: Equipment
-Smartlink Rifle: (4) Draw a card. Do 4 damage to a minion at this location.
-Theromoptic Camoflauge: (5) Stealth. +1 power for each Reveal you played this turn.
-Motorcycle: (3) +2 speed. Reveal.
-Shroud Of Anubis: (7) +3 power. Do 5 damage to an artifact.
-
-Tag: Tactics
-Dragon Fist Block: (4) Block 1 damage. +1 power. Freeze a minion.
-
-Tag: Software
-Hack: (3) +2 power. Spy.
-Depth-first search: (3) Spy ALL cards at your current location. Open a new location and move to it.
-SIGINT: (4) +5 power vs ICE.
-
-Tag: Spell
-Astral Detection: (4) Reveal. If you reveal a spell, reveal another card. Reveal cards until you reveal one that is not a spell. +1 power for each spell or artifact revealed.
-Plasma Lightning: (4) Draw a card. +3 power. One-shot.
-
-Villians:
+##Villians:
 
 Johann Ess
+
 Movement: Johann starts the game at the right most location. At the beginning of the villian's turn, if there are no cards at his location, he moves one location left. Otherwise, he does not move. 
 
 Action: Johann takes a revealed card at his location and adds it to the villian pile. If there is not a revealed card, reveals the first card instead.
 
-Minions:
-Thug: 3 power -- Secret: All heroes at this location discard a card. (Player's choice).
-CamBot: 4 power -- Secret: If another card at this location is revealed, Stealth it. Movement: Moves one location left.
-Machine Gun Turret: 5 power -- Secret: Do one damage to all heroes at this location. At the end of the round, Stealth.
-Gel Gun Turret: 3 power -- Secret: Reduce the movement of all heroes at this location by 4 until the end of the round.
-Missle Turret: 8 power -- Secret: This turret can't attack until next round.
+##*Tag*: Starter (2)
+
+*Trust*: +1 power. One-shot.
+
+*Investigate*: +1 speed. Reveal. One-shot.
+
+##*Tag*: Artifact (7)
+
+*Ruby of Anuket*: (10) You cannot attack the Ruby of Anuket unless you spend 3 speed. Secret: ALL heroes at this location lose 5 speed until next round.
+
+*Selket's Sting*: (10) Secret: ALL heroes at this location put a (damage card) in their discard pile. This cannot be blocked.
+
+##*Tag*: Equipment
+
+*Smartlink Rifle*: (4) Draw a card. Do 4 damage to a minion at this location.
+
+*Theromoptic Camoflauge*: (5) Stealth. +1 power for each Reveal you played this turn.
+
+*Motorcycle*: (3) +2 speed. Reveal.
+
+*Shroud Of Anubis*: (7) +3 power. Do 5 damage to an artifact.
+
+##*Tag*: Tactics
+
+*Dragon Fist Block*: (4) Block 1 damage. +1 power. Freeze a minion.
+
+##*Tag*: Software
+
+*Hack*: (3) +2 power. Spy.
+
+*Depth-first search*: (3) Spy ALL cards at your current location. Open a new location and move to it.
+
+*SIGINT*: (4) +5 power vs ICE.
+
+##*Tag*: Spell
+
+*Astral Detection*: (4) Reveal. If you reveal a spell, reveal another card. Reveal cards until you reveal one that is not a spell. +1 power for each spell or artifact revealed.
+
+*Plasma Lightning*: (4) Draw a card. +3 power. One-shot.
+
+##*Tag*: Minions
+
+*Thug*: 3 power -- Secret: All heroes at this location discard a card. (Player's choice).
+
+*CamBot*: 4 power -- Secret: If another card at this location is revealed, Stealth it. Movement: Moves one location left.
+
+*Machine Gun Turret*: 5 power -- Secret: Do one damage to all heroes at this location. At the end of the round, Stealth.
+
+*Gel Gun Turret*: 3 power -- Secret: Reduce the movement of all heroes at this location by 4 until the end of the round.
+
+*Missle Turret*: 8 power -- Secret: This turret can't attack until next round.
+
 Android
+
 Bioroid
-Security Camera: 1 power -- Secret: Temporarily close this location until the beginning of the next round. ALL characters are moved one location to the left.
+
+*Security Camera*: 1 power -- Secret: Temporarily close this location until the beginning of the next round. ALL characters are moved one location to the left.
 
 Deviant Shamen
+
 Deviant Mage
+
 Deviant Sorcerer
+
 Deviant Warlock
-CorpSec: 6 power -- Heart Monitor.
-CTO: 9 power -- Secret: All heroes at this location discard all software. Heart Monitor.
-CFO: 8 power -- Secret: Close the second location from the left. ANY cards at that location are added to the Villian's pile. Heart Monitor.
+
+*CorpSec*: 6 power -- Heart Monitor.
+
+*CTO*: 9 power -- Secret: All heroes at this location discard all software. Heart Monitor.
+
+*CFO*: 8 power -- Secret: Close the second location from the left. ANY cards at that location are added to the Villian's pile. Heart Monitor.
+
 Heartbleed ICE
+
 Honeypot ICE
+
 StackOverflow ICE
 
 
-Tag: Locations (25)
+##*Tag*: Locations (25)
 - Bar: Damn The Rain -- An upscale bar in Pioneer Square.
 - Bar: 5 Points -- A grungey bar in Belltown.
 - Bar: The Unicorn
