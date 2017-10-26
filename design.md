@@ -18,7 +18,7 @@ Keywords:
 
 Reveal: Flip over a hidden card at your location. If the card you flip over has a Secret effect, execute it.
 
-Stealth: Flip over a revealed card at your location.
+Sabotague: Flip over a revealed card at your location. Any damage remains on the card.
 
 Spy: Look at a hidden card but don't reveal.
 
@@ -32,7 +32,15 @@ Research: Draw 3 cards. Pick one, and put the other two in your discard pile.
 
 One-shot: After using this card, remove it from the game.
 
-Heart Monitor: When this minion dies, reveal a card at this location. If the card is not an artifact, add it to the villian's pile.
+Heart Monitor: When this minion dies execute the Heart Monitor text. I.E. "Heart Monitor: Alarm 1"
+
+Alarm \#: reveal \# of cards at this location. If the card is not an artifact add it to the villain's pile.
+
+Suppress: Ignore one instance of Alarm, regardless of its \# value.
+
+Security \#: Spend \# power to reveal one card at this location. Reveal powers ignore Security.
+
+Closed: Turn location sideways, ignore all text on location, move any figures one location to the left.
 
 Disposable:
 
@@ -49,9 +57,9 @@ Reload:
 Defective: by design
 
 
-#Characters:
+# Characters:
 
-##Chip
+## Chip
 
 Hacker/information guy -- good at software
 
@@ -61,7 +69,7 @@ Speed: 2
 
 Talent: Spend 2 power. Reveal a card at your location.
 
-##Viktor Savin
+## Viktor Savin
 
 Mechanic, morbid, good at making robots, part robot -- like Full Metal Alchemist
 
@@ -71,7 +79,7 @@ Speed: 1
 
 Talent: Spend 2 power. ?????
 
-##Molly Deacon
+## Molly Deacon
 
 Mysterious, Ex-cop, she could be android, but we leave this ambigious
 
@@ -81,7 +89,7 @@ Speed: 2
 
 Talent: Spend 2 power. ???
 
-##Bandit Schafer
+## Bandit Schafer
 
 Dog Shamen, barista, dog walker. Hippie, into spiritual stuff
 
@@ -93,7 +101,7 @@ Talent: Howl: spend 2 power, summon a dog at your location. Bandit starts the ga
 
 Initialize, Polymorphism, Monomorphism, 
 
-##Villians:
+## Villians:
 
 Johann Ess
 
@@ -101,19 +109,19 @@ Movement: Johann starts the game at the right most location. At the beginning of
 
 Action: Johann takes a revealed card at his location and adds it to the villian pile. If there is not a revealed card, reveals the first card instead.
 
-##*Tag*: Starter (2)
+## *Tag*: Starter (2)
 
 *Trust*: +1 power. One-shot.
 
 *Investigate*: +1 speed. Reveal. One-shot.
 
-##*Tag*: Artifact (7)
+## *Tag*: Artifact (7)
 
 *Ruby of Anuket*: (10) You cannot attack the Ruby of Anuket unless you spend 3 speed. Secret: ALL heroes at this location lose 5 speed until next round.
 
 *Selket's Sting*: (10) Secret: ALL heroes at this location put a (damage card) in their discard pile. This cannot be blocked.
 
-##*Tag*: Equipment
+## *Tag*: Equipment
 
 *Smartlink Rifle*: (4) Draw a card. Do 4 damage to a minion at this location.
 
@@ -123,11 +131,11 @@ Action: Johann takes a revealed card at his location and adds it to the villian 
 
 *Shroud Of Anubis*: (7) +3 power. Do 5 damage to an artifact.
 
-##*Tag*: Tactics
+## *Tag*: Tactics
 
 *Dragon Fist Block*: (4) Block 1 damage. +1 power. Freeze a minion.
 
-##*Tag*: Software
+## *Tag*: Software
 
 *Hack*: (3) +2 power. Spy.
 
@@ -135,13 +143,13 @@ Action: Johann takes a revealed card at his location and adds it to the villian 
 
 *SIGINT*: (4) +5 power vs ICE.
 
-##*Tag*: Spell
+## *Tag*: Spell
 
 *Astral Detection*: (4) Reveal. If you reveal a spell, reveal another card. Reveal cards until you reveal one that is not a spell. +1 power for each spell or artifact revealed.
 
 *Plasma Lightning*: (4) Draw a card. +3 power. One-shot.
 
-##*Tag*: Minions
+## *Tag*: Minions
 
 *Thug*: 3 power -- Secret: All heroes at this location discard a card. (Player's choice).
 
@@ -157,7 +165,7 @@ Android
 
 Bioroid
 
-*Security Camera*: 1 power -- Secret: Temporarily close this location until the beginning of the next round. ALL characters are moved one location to the left.
+*Security Camera*: 1 power -- Secret: Location is Closed for one turn.
 
 Deviant Shamen
 
@@ -179,34 +187,35 @@ Honeypot ICE
 
 StackOverflow ICE
 
+## *Tag*: Locations (25)
 
-##*Tag*: Locations (25)
-- Bar: Damn The Rain -- An upscale bar in Pioneer Square.
-- Bar: 5 Points -- A grungey bar in Belltown.
-- Bar: The Unicorn
-- Neumos
-- The Space Needle
-- Benaroya Hall
-- Nile Corporation HQ: Grep Tower
-- Nile Corporation HQ:
-- Nile Corporation HQ:
-- Starbucks Reserve Roastery
-- International District: Chinatown Gate
-- Pike Place Market
-- Gas Works Park
-- Seattle Art Museum
-- MoPop Museum
-- Harbor Island
-- Theo Chocolate
-- Sub Pop Records
-- Canlis: Fancy Restaurant Setting
-- University of Washington: Red Square
-- University of Washington: Library
-- 3rd & Pine: Scary McBurgerplace
-- Royal Room: Jazz lounge and restaraunt
-- Seattle Underground: Haunted, abandoned speakeasy
-- Fremont Troll
-- Lake View Cemetery (Bruce Lee's Grave)
+### Security levels: 2/12/7/3/1
+
+- Bar: Damn The Rain -- An upscale bar in Pioneer Square; Security: 3
+- Bar: 5 Points -- A grungey bar in Belltown; Security: 1
+- Bar: The Unicorn; Security: 2
+- Neumos; Security: 2
+- The Space Needle; Security: 3. Reduce security of neighboring locations by 1 (1 minimum) when there are no cards at this location.
+- Benaroya Hall; Security: 2
+- Nile Corporation HQ: Grep Tower; Security: 4
+- Nile Corporation HQ: Blacksite; Security: 5, Secret: Place 2 cards at Blacksite
+- Nile Corporation HQ: Magical Acquisitions Research and Storage (MARS); Security: 4, At the end of the turn move any revealed Artifacts to this location and Sabotague them.
+- Starbucks Reserve Roastery; Security: 2
+- International District: Chinatown Gate; Security: 2
+- Pike Place Market; Security: 2
+- Gas Works Park; Security: 2
+- Seattle Art Museum; Security: 3
+- MoPop Museum; Security: 2
+- Vashon Island; Security: 2, Requires 2 speed to move to.
+- Seattle Great Wheel; Security: 2
+- King Street Station; Security: 1, May move here from anywhere for 1 speed.
+- Canlis: Fancy Restaurant Setting; Security: 3
+- University of Washington: Red Square; Security: 3
+- University of Washington: Library; Security: 4
+- 3rd & Pine: Scary McBurgerplace; Security: 2
+- Royal Room: Jazz lounge and restaraunt; Security: 3
+- Seattle Underground: Haunted, abandoned speakeasy; Security: 3
+- Lake View Cemetery (Bruce Lee's Grave); Security: 2
 
 Setting:
 
