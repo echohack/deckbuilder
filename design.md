@@ -18,7 +18,7 @@ Keywords:
 
 Reveal: Flip over a hidden card at your location. If the card you flip over has a Secret effect, execute it.
 
-Sabotague: Flip over a revealed card at your location. Any damage remains on the card.
+Cloak: Flip over a revealed card at your location. Any damage remains on the card.
 
 Spy: Look at a hidden card but don't reveal.
 
@@ -30,8 +30,6 @@ Freeze: When a character is frozen, they can take no actions until the beginning
 
 Research: Draw 3 cards. Pick one, and put the other two in your discard pile.
 
-One-shot: After using this card, remove it from the game.
-
 Heart Monitor: When this minion dies execute the Heart Monitor text. I.E. "Heart Monitor: Alarm 1"
 
 Alarm \#: reveal \# of cards at this location. If the card is not an artifact add it to the villain's pile.
@@ -41,6 +39,8 @@ Suppress: Ignore one instance of Alarm, regardless of its \# value.
 Security \#: Spend \# power to reveal one card at this location. Reveal powers ignore Security.
 
 Closed: Turn location sideways, ignore all text on location, move any figures one location to the left.
+
+Burn: Some cards can only be used once. After you play a card with Burn, you put it in the Burn pile.
 
 Disposable:
 
@@ -111,55 +111,69 @@ Action: Johann takes a revealed card at his location and adds it to the villian 
 
 ## *Tag*: Starter (2)
 
-*Trust*: +1 power. One-shot.
+*Trust*: +1 power. After playing this card, Burn it.
 
-*Investigate*: +1 speed. Reveal. One-shot.
+*Investigate*: +1 speed. Reveal a card. After playing this card, Burn it.
 
 ## *Tag*: Artifact (7)
 
 *Ruby of Anuket*: (10) You cannot attack the Ruby of Anuket unless you spend 3 speed. Secret: ALL heroes at this location lose 5 speed until next round.
 
-*Selket's Sting*: (10) Secret: ALL heroes at this location put a (damage card) in their discard pile. This cannot be blocked.
+*Selket's Sting*: (10) Secret: ALL heroes at this location take one wound.
 
 ## *Tag*: Equipment
 
 *Smartlink Rifle*: (4) Draw a card. Do 4 damage to a minion at this location.
 
-*Theromoptic Camoflauge*: (5) Stealth. +1 power for each Reveal you played this turn.
+*Thermo-optic Camouflage*: (4) Cloak. +1 Power for each Reveal you played this turn.
 
 *Motorcycle*: (3) +2 speed. Reveal.
 
-*Shroud Of Anubis*: (7) +3 power. Do 5 damage to an artifact.
+Revolver: (2): +2 Power.
+
+*Mask Of Anubis*: (7) +3 Power. Do 5 damage to an artifact.
 
 ## *Tag*: Tactics
 
-*Dragon Fist Block*: (4) Block 1 damage. +1 power. Freeze a minion.
+*Dragon Fist Block*: (2) +1 Power. Block 1 wound.
+
+*Snipe*: (3) +2 Power. Until the end of the turn, you can purchase cards at adjacent locations.
+
+*Explore*: (3) Open 2 new locations. +1 Power for each location you opened this turn.
 
 ## *Tag*: Software
 
-*Hack*: (3) +2 power. Spy.
+*Hack*: (3) +2 Power. Spy a card.
 
 *Depth-first search*: (3) Spy ALL cards at your current location. Open a new location and move to it.
 
-*SIGINT*: (4) +5 power vs ICE.
+*Firewall*: (5) +2 Power. Block ALL wounds at this location for this turn.
+
+*Burnout*: (7) Take 2 Wounds. +1 Power for each card in the Burn pile. After playing this card, Burn it.
+
+*KILL-9*: (4) Destroy 1 ICE minion.
 
 ## *Tag*: Spell
 
-*Astral Detection*: (4) Reveal. If you reveal a spell, reveal another card. Reveal cards until you reveal one that is not a spell. +1 power for each spell or artifact revealed.
+*Astral Detection*: (4) Reveal 2 cards. +1 power for each spell or artifact revealed.
 
-*Plasma Lightning*: (4) Draw a card. +3 power. One-shot.
+*Plasma Lightning*: (4) Draw a card. +3 power. After playing this card, Burn it.
+
+## *Tag*: Misc (These cards have no printed tag)
+
+*Wound*: Play this card before any other cards. Place this card on your hero.
 
 ## *Tag*: Minions
 
 *Thug*: 3 power -- Secret: All heroes at this location discard a card. (Player's choice).
 
-*CamBot*: 4 power -- Secret: If another card at this location is revealed, Stealth it. Movement: Moves one location left.
+*CamBot*: 4 power -- Secret: If another card at this location is revealed, Cloak it. Movement: Moves one location left.
 
-*Machine Gun Turret*: 5 power -- Secret: Do one damage to all heroes at this location. At the end of the round, Stealth.
+*Machine Gun Turret*: 5 power -- On Reveal: Heroes at this location take 1 wound. Cloak at the end of the round.
 
 *Gel Gun Turret*: 3 power -- Secret: Reduce the movement of all heroes at this location by 4 until the end of the round.
 
-*Missle Turret*: 8 power -- Secret: This turret can't attack until next round.
+*Missile Turret*: 8 power -- Secret: This turret can't attack until next round.
 
 Android
 
@@ -175,11 +189,11 @@ Deviant Sorcerer
 
 Deviant Warlock
 
-*CorpSec*: 6 power -- Heart Monitor.
+*Corporate Security*: 6 power -- Heart Monitor.
 
 *CTO*: 9 power -- Secret: All heroes at this location discard all software. Heart Monitor.
 
-*CFO*: 8 power -- Secret: Close the second location from the left. ANY cards at that location are added to the Villian's pile. Heart Monitor.
+*CFO*: 8 power -- Secret: Close the second location from the left. ANY cards at that location are added to the Lair.
 
 Heartbleed ICE
 
@@ -191,31 +205,27 @@ StackOverflow ICE
 
 ### Security levels: 2/12/7/3/1
 
-- Bar: Damn The Rain -- An upscale bar in Pioneer Square; Security: 3
-- Bar: 5 Points -- A grungey bar in Belltown; Security: 1
+- Damn The Rain - Security: 3
+- The Unicorn - Security: 1
 - Bar: The Unicorn; Security: 2
-- Neumos; Security: 2
-- The Space Needle; Security: 3. Reduce security of neighboring locations by 1 (1 minimum) when there are no cards at this location.
-- Benaroya Hall; Security: 2
-- Nile Corporation HQ: Grep Tower; Security: 4
-- Nile Corporation HQ: Blacksite; Security: 5, Secret: Place 2 cards at Blacksite
-- Nile Corporation HQ: Magical Acquisitions Research and Storage (MARS); Security: 4, At the end of the turn move any revealed Artifacts to this location and Sabotague them.
-- Starbucks Reserve Roastery; Security: 2
-- International District: Chinatown Gate; Security: 2
-- Pike Place Market; Security: 2
-- Gas Works Park; Security: 2
-- Seattle Art Museum; Security: 3
-- MoPop Museum; Security: 2
-- Vashon Island; Security: 2, Requires 2 speed to move to.
-- Seattle Great Wheel; Security: 2
-- King Street Station; Security: 1, May move here from anywhere for 1 speed.
-- Canlis: Fancy Restaurant Setting; Security: 3
-- University of Washington: Red Square; Security: 3
-- University of Washington: Library; Security: 4
-- 3rd & Pine: Scary McBurgerplace; Security: 2
-- Royal Room: Jazz lounge and restaraunt; Security: 3
-- Seattle Underground: Haunted, abandoned speakeasy; Security: 3
-- Lake View Cemetery (Bruce Lee's Grave); Security: 2
+- Neptune Theater; Security: 2
+- Space Needle - Security: 3. Reduce security of neighboring locations by 1 when there are no cards at this location.
+- Benaroya Hall - Security: 2
+- Nile HQ: Grep Tower - Security: 4
+- Nile HQ: Blacksite - Security: 5, On Reveal: Place 2 cards at this location.
+- Nile HQ: Magical Acquisitions Research and Storage (MARS) - Security: 4, At the end of the turn move any revealed Artifacts to this location and Cloak them.
+- Starbucks Reserve Roastery - Security: 2
+- Chinatown Gate - Security: 1
+- Pike Place Market - Security: 2
+- Gasworks Park - Security: 2
+- Seattle Art Museum - Security: 3
+- MoPop Museum - Security: 2
+- Vashon Island - Security: 2, Requires 2 speed to move to.
+- Seattle Great Wheel - Security: 2
+- King Street Station - Security: 1, May move here from anywhere for 1 speed.
+- 3rd & Pine: Scary McBurgerplace - Security: 2
+- Seattle Underground - Security: 3
+- Lake View Cemetery - Security: 2
 
 Setting:
 

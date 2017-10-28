@@ -1,0 +1,5 @@
+*.ai
+*.ait
+*.psd
+
+.DS_Store
