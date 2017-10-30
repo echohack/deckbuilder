@@ -63,11 +63,13 @@ Defective: by design
 
 Hacker/information guy -- good at software
 
+Chip starts the game with a Ping card.
+
 Life: 3
 
-Speed: 2
+Speed: 1
 
-Talent: Spend 2 power. Reveal a card at your location.
+Talent: Neural Lace: +2 Power. Spy a card. If it's software, Reveal it.
 
 ## Viktor Savin
 
@@ -77,29 +79,35 @@ Life: 4
 
 Speed: 1
 
-Talent: Spend 2 power. ?????
+Talent: Drone Delivery: +2 Power. Move 1 card from ANY location to your location.
 
 ## Molly Deacon
 
-Mysterious, Ex-cop, she could be android, but we leave this ambigious
+Mysterious, Detective/cop, she could be android, but we leave this ambigious
+
+Molly starts the game with a Revolver card.
 
 Life: 3
 
-Speed: 2
+Speed: 1
 
-Talent: Spend 2 power. ???
+Talent: Protect & Serve: +2 Power. The player to your right draws a card.
 
 ## Bandit Schafer
 
 Dog Shamen, barista, dog walker. Hippie, into spiritual stuff
 
+Bandit starts the game with a dog at his starting location. The dog has 1 speed. This lets Bandit be in two places at once.
+
 Life: 2
 
 Speed: 1
 
-Talent: Howl: spend 2 power, summon a dog at your location. Bandit starts the game with a dog at his starting location.
+Talent: Howl: +2 Power. You may move to ANY location with a spell at no cost.
 
-Initialize, Polymorphism, Monomorphism, 
+## Talents
+
+Each of the characters in the game has a unique talent card that they add to their deck at the start of the game.
 
 ## Villians:
 
@@ -127,9 +135,15 @@ Action: Johann takes a revealed card at his location and adds it to the villian 
 
 *Thermo-optic Camouflage*: (4) Cloak. +1 Power for each Reveal you played this turn.
 
-*Motorcycle*: (3) +2 speed. Reveal.
+*Hidden Augment*: (4) Draw a card. +2 Power if you drew an Equipment card.
 
-Revolver: (2): +2 Power.
+*Data Jack*: (3) +1 Power. Reveal a card.
+
+*Hand Razors*: (2) +1 Power. If you Burn this card, +1 Power and +2 Speed.
+
+*Motorcycle*: (3) +2 Speed. Reveal a card.
+
+*Revolver*: (2): +2 Power.
 
 *Mask Of Anubis*: (7) +3 Power. Do 5 damage to an artifact.
 
@@ -137,15 +151,23 @@ Revolver: (2): +2 Power.
 
 *Dragon Fist Block*: (2) +1 Power. Block 1 wound.
 
-*Snipe*: (3) +2 Power. Until the end of the turn, you can purchase cards at adjacent locations.
+*Snipe*: (3) +2 Power. Until the end of the turn, you can buy cards at adjacent locations.
 
 *Explore*: (3) Open 2 new locations. +1 Power for each location you opened this turn.
+
+*Smuggle*: (3) Choose two heroes at your location. Each of them draws a card.
+
+*Research*: (3) +1 Power. Draw 3 cards, choose 1 and discard the other 2.
 
 ## *Tag*: Software
 
 *Hack*: (3) +2 Power. Spy a card.
 
+*Ping*: (2) +1 Speed. Spy a card.
+
 *Depth-first search*: (3) Spy ALL cards at your current location. Open a new location and move to it.
+
+*Traceroute*: (4) +2 Power. Shuffle your discard pile in your deck.
 
 *Firewall*: (5) +2 Power. Block ALL wounds at this location for this turn.
 
@@ -155,7 +177,7 @@ Revolver: (2): +2 Power.
 
 ## *Tag*: Spell
 
-*Astral Detection*: (4) Reveal 2 cards. +1 power for each spell or artifact revealed.
+*Astral Detection*: (4) Reveal 2 cards. +1 power for each spell revealed.
 
 *Plasma Lightning*: (4) Draw a card. +3 power. After playing this card, Burn it.
 
