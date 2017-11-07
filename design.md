@@ -139,7 +139,7 @@ Action: Johann takes a revealed card at his location and adds it to the villian 
 
 *Data Jack*: (3) +1 Power. Reveal a card.
 
-*Hand Razors*: (2) +1 Power. If you Burn this card, +1 Power and +2 Speed.
+*Claws*: (2) +1 Power. If you Burn this card, +1 Power and +2 Speed.
 
 *Motorcycle*: (3) +2 Speed. Reveal a card.
 
@@ -169,7 +169,7 @@ Action: Johann takes a revealed card at his location and adds it to the villian 
 
 *Traceroute*: (4) +2 Power. Shuffle your discard pile in your deck.
 
-*Firewall*: (5) +2 Power. Block ALL wounds at this location for this turn.
+*Firewall*: (5) On Reveal: Close this location for the rest of the turn. +2 Power. Block one wound.
 
 *Burnout*: (7) Take 2 Wounds. +1 Power for each card in the Burn pile. After playing this card, Burn it.
 
@@ -180,6 +180,10 @@ Action: Johann takes a revealed card at his location and adds it to the villian 
 *Astral Detection*: (4) Reveal 2 cards. +1 power for each spell revealed.
 
 *Plasma Lightning*: (4) Draw a card. +3 power. After playing this card, Burn it.
+
+*Fireball*: (5) +2 Power. If you buy a card with a Burn effect, play that card immediately and Burn this card.
+
+*Frostbolt*: (2) +1 Power. If you Burn this card, +2 Power and 3 damage to an enemy instead.
 
 ## *Tag*: Misc (These cards have no printed tag)
 
@@ -209,7 +213,7 @@ Deviant Mage
 
 Deviant Sorcerer
 
-Deviant Warlock
+*Nile ARMS*: 5 Power. On Reveal: Heroes at this location discard a card. Movement: Moves 2 locations.
 
 *Corporate Security*: 6 power -- Heart Monitor.
 
@@ -217,7 +221,7 @@ Deviant Warlock
 
 *CFO*: 8 power -- Secret: Close the second location from the left. ANY cards at that location are added to the Lair.
 
-Heartbleed ICE
+Heartbleed ICE - Heroes at this location cannot move for this turn. Movement: 1.
 
 Honeypot ICE
 
